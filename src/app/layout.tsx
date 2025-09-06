@@ -13,8 +13,7 @@ const notoSans = Noto_Sans_JP({
 export const metadata: Metadata = {
   title: "東京のDJサークル - muuto",
   description:
-    "東京で活動するDJサークルmuuto。初心者から経験者まで大歓迎！クラブ標準の機材で練習でき、ジャンルを問わず仲間とつながれる。定期的なイベントや交流会でDJの楽しさを一緒に体験しましょう。",
-  generator: "v0.app",
+    "東京で活動するDJサークルmuuto。初心者から経験者まで大歓迎！クラブ標準の機材で練習でき、ジャンルを問わず仲間とつながれる。",
 };
 
 export default function RootLayout({
