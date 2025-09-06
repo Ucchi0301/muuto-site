@@ -111,7 +111,7 @@ const AboutMuuto = () => {
             <div className="w-full aspect-video bg-[var(--muted)]">
               {/* 画像があれば差し替え */}
               <img
-                src="/サークル完成.png"
+                src="/サークル完成.webp"
                 alt="サークルの雰囲気"
                 className="h-full w-full object-cover"
                 loading="lazy"
