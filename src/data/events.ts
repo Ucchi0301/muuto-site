@@ -3,7 +3,7 @@ import { EventItem } from "@/types/events";
 
 
 // 初心者向けDJ練習会の画像パス
-const beginnerImagePath = "/images/events/practice-beginner.png";
+const beginnerImagePath = "/images/events/practice-beginner-2.png";
 const nightClubImagePath = "/images/events/nightclub.jpg";
 const recordShopImagePath = "/images/events/レコード.jpg";
 
@@ -11,64 +11,82 @@ const recordShopImagePath = "/images/events/レコード.jpg";
 export const events: EventItem[] = [
   // DJ練習会
   {
-    title: "DJ練習会",
-    date: "2025-09-10",
-    description: "クラブ標準機材を使った初心者向け練習会。操作の基礎から一緒に学べます。",
+    title: "【新宿】DJ体験で音楽を楽しもう！",
+    date: "2025-09-16",
+    description: "クラブ機材を使った初心者向けの体験会です。DJとはから操作方法までサポートします。",
     imageUrl: beginnerImagePath,
-    location: "渋谷",
+    location: "新宿",
     eventUrl: "https://tunagate.com/circle/98708/events/447468",
   },
   {
-    title: "DJ練習会",
-    date: "2025-09-10",
-    description: "クラブ標準機材を使った初心者向け練習会。操作の基礎から一緒に学べます。",
+    title: "【新宿】DJ体験で音楽を楽しもう！",
+    date: "2025-09-27",
+    description: "クラブ機材を使った初心者向けの体験会です。DJとはから操作方法までサポートします。",
     imageUrl: beginnerImagePath,
     location: "新宿",
+    eventUrl : "https://tunagate.com/circle/98708/events/448599",
   },
-
-  // レコード屋巡り
-  {
-    title: "渋谷レコード探訪",
-    date: "2024-07-20",
-    description: "渋谷の老舗レコード店を巡り、掘り出し物を探す1日。",
-    imageUrl: recordShopImagePath,
+    {
+    title: "クラブに行ってみよう",
+    date: "2025-09-17",
+    description: "主催の知り合いが出演するハウス・テクノ中心のパーティー、サークルメンバー限定",
+    imageUrl: nightClubImagePath,
     location: "渋谷",
   },
-  {
-    title: "下北沢ヴィンテージレコードツアー",
-    date: "2024-05-18",
-    description: "下北沢の小さなショップを巡り、アナログの世界に浸ります。",
-    imageUrl: recordShopImagePath,
-    location: "下北沢",
-  },
-  {
-    title: "新宿ジャズレコード探索",
-    date: "2024-03-12",
-    description: "ジャズ専門店を中心に、個性的なアナログ盤を発掘するツアー。",
-    imageUrl: recordShopImagePath,
+    {
+    title: "【新宿】DJ体験で音楽を楽しもう！",
+    date: "2025-08-19",
+    description: "クラブ機材を使った初心者向けの体験会です。DJとはから操作方法までサポートします。",
+    imageUrl: beginnerImagePath,
     location: "新宿",
+    eventUrl: "https://tunagate.com/circle/98708/events/441365",
   },
-
-  // クラブに行ってみよう
-  {
-    title: "クラブ初体験ナイト",
-    date: "2025-11-02",
-    description: "クラブに行ったことがない人のための安心ガイド付き体験イベント。",
-    imageUrl: nightClubImagePath,
-    location: "渋谷",
+      {
+    title: "【新宿】DJ体験で音楽を楽しもう！",
+    date: "2025-08-30",
+    description: "クラブ機材を使った初心者向けの体験会です。DJとはから操作方法までサポートします。",
+    imageUrl: beginnerImagePath,
+    location: "新宿",
+    eventUrl: "https://tunagate.com/circle/98708/events/442524",
   },
-  {
-    title: "ハウスミュージック体感",
-    date: "2024-08-15",
-    description: "本場のハウスを体験。リズムの一体感を感じる夜。",
-    imageUrl: nightClubImagePath,
-    location: "恵比寿",
+        {
+    title: "音楽好き集まれ！DJ体験で音楽を楽しもう🎶",
+    date: "2025-06-14",
+    description: "クラブ機材を使った初心者向けの体験会です。DJとはから操作方法までサポートします。",
+    imageUrl: beginnerImagePath,
+    location: "新宿",
+    eventUrl: "https://tunagate.com/circle/98708/events/426373",
   },
-  {
-    title: "テクノナイト＠六本木",
-    date: "2024-06-08",
-    description: "国内外のテクノアーティストを迎えた特別企画。",
-    imageUrl: nightClubImagePath,
-    location: "六本木",
+          {
+    title: "音楽好き集まれ！DJ体験で音楽を楽しもう🎶",
+    date: "2025-05-17",
+    description: "クラブ機材を使った初心者向けの体験会です。DJとはから操作方法までサポートします。",
+    imageUrl: beginnerImagePath,
+    location: "新宿",
+    eventUrl: "https://tunagate.com/circle/98708/events/418087",
   },
+            {
+    title: "音楽好き集まれ！DJ体験で音楽を楽しもう🎶",
+    date: "2025-04-11",
+    description: "クラブ機材を使った初心者向けの体験会です。DJとはから操作方法までサポートします。",
+    imageUrl: beginnerImagePath,
+    location: "新宿",
+    eventUrl: "https://tunagate.com/circle/98708/events/408345",
+  },
+             {
+    title: "音楽好き集まれ！DJ体験で音楽を楽しもう🎶",
+    date: "2025-02-16",
+    description: "クラブ機材を使った初心者向けの体験会です。DJとはから操作方法までサポートします。",
+    imageUrl: beginnerImagePath,
+    location: "新宿",
+    eventUrl: "https://tunagate.com/circle/98708/events/391891",
+  }, 
+               {
+    title: "音楽好き集まれ！DJ体験で音楽を楽しもう🎶",
+    date: "2025-01-26",
+    description: "クラブ機材を使った初心者向けの体験会です。DJとはから操作方法までサポートします。",
+    imageUrl: beginnerImagePath,
+    location: "新宿",
+    eventUrl: "https://tunagate.com/circle/98708/events/383581",
+  }, 
 ];

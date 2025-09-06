@@ -16,16 +16,15 @@ const Header = () => {
     const io = new IntersectionObserver(
       (entries) => {
         const ent = entries[0];
-        // About が見えているとき → ヘッダー非表示
         setVisible(ent.isIntersecting);
-        if (ent.isIntersecting && open) setOpen(false);
+        // ★ ここで setOpen(false) はしない（即閉じ問題の主因）
       },
       { threshold: 0.1 }
     );
 
     io.observe(target);
     return () => io.disconnect();
-  }, [open]);
+  }, []);
 
   // メニュー外クリックで閉じる
   useEffect(() => {

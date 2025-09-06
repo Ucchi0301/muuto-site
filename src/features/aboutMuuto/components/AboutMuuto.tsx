@@ -57,11 +57,11 @@ const AboutMuuto = () => {
           {
             backgroundImage: `
       linear-gradient(to right,
-        color-mix(in oklch, var(--foreground) 6%, transparent) 1px,
+        color-mix(in oklch, var(--foreground) 4%, transparent) 1px,
         transparent 1px
       ),
       linear-gradient(to bottom,
-        color-mix(in oklch, var(--foreground) 6%, transparent) 1px,
+        color-mix(in oklch, var(--foreground) 4%, transparent) 1px,
         transparent 1px
       )
     `,

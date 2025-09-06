@@ -18,10 +18,11 @@ const Footer = () => {
               muuto
             </h3>
             <p className="mt-2 text-sm leading-relaxed text-[color:var(--muted-foreground)]">
-              東京で活動するDJサークル。初心者歓迎・オールジャンルOK・本格機材で練習。
+              東京で活動する音楽仲間のできるDJサークル。<br />
+              初心者歓迎・オールジャンルOK・本格機材で練習。
             </p>
 
-            {/* SNS：タップ領域40px・アイコン20pxで統一 */}
+            {/* SNS：タップ領域40px・アイコン20pxで統一
             <div className="mt-4 flex items-center gap-2.5">
               <a
                 aria-label="Instagram"
@@ -69,7 +70,7 @@ const Footer = () => {
                   <path d="M23 8.3a4 4 0 0 0-2.8-2.9C18.5 5 12 5 12 5s-6.5 0-8.2.4A4 4 0 0 0 1 8.3 41 41 0 0 0 1 12a41 41 0 0 0 .8 3.7 4 4 0 0 0 2.8 2.9C5.5 19 12 19 12 19s6.5 0 8.2-.4a4 4 0 0 0 2.8-2.9A41 41 0 0 0 23 12a41 41 0 0 0 0-3.7zM10 15V9l5 3-5 3z" />
                 </svg>
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Links 1 */}
@@ -92,7 +93,7 @@ const Footer = () => {
                   イベント
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a
                   href="#faq"
                   className="text-[color:var(--muted-foreground)] hover:text-[var(--primary)] transition-colors"
@@ -107,7 +108,7 @@ const Footer = () => {
                 >
                   お問い合わせ
                 </a>
-              </li>
+              </li> */}
             </ul>
           </nav>
         </div>

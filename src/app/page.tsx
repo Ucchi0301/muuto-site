@@ -47,7 +47,7 @@ export default function Home() {
       {/* ギャラリー */}
       <section className="mx-auto max-w-6xl pl-4 pr-4 py-4">
         <EdgeToEdge>
-          <GallerySection title="ギャラリー" images={imgs} />
+          <GallerySection title="サークルの様子" images={imgs} />
         </EdgeToEdge>
       </section>
 

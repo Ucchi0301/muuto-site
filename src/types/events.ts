@@ -4,9 +4,7 @@ export type EventItem = {
   date: string;
   description: string;
   imageUrl?: string;
-  href?: string;
   location?: string;
-  price?: string;
   tags?: string[];
   eventUrl?: string;
 };

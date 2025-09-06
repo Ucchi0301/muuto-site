@@ -22,7 +22,7 @@ function toPairs<T>(arr: T[]) {
 const GallerySection: React.FC<Props> = ({
   images,
   captions = [],
-  title = "ギャラリー",
+  title = "サークルの様子",
 }) => {
   const trackRef = useRef<HTMLDivElement>(null);
   const pairs = useMemo(() => toPairs(images), [images]);

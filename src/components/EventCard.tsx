@@ -85,7 +85,7 @@ export default function EventCard({ item }: { item: EventItem }) {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center h-9 px-3 rounded-md border border-primary text-primary bg-white hover:bg-primary hover:text-white transition-colors"
               >
-                参加する
+                申し込む
               </a>
             ) : (
               // 未来 & URLなし → Coming Soon
