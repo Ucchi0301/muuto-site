@@ -10,7 +10,8 @@ const Hero = () => {
             <span className="text-primary block">共有しませんか？</span>
           </h1>
           <p className="text-xl text-muted-foreground text-pretty mb-8 leading-relaxed">
-            東京のDJサークル”muuto -ミュート-”です。
+            東京のDJサークル<br />
+            ”muuto -ミュート-”です。
             <br />
             音楽を通じて友達を作ってみませんか？
           </p>
