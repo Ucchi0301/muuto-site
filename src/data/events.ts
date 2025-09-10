@@ -4,7 +4,7 @@ import { EventItem } from "@/types/events";
 
 // 初心者向けDJ練習会の画像パス
 const beginnerImagePath = "/images/events/practice-beginner-2.png";
-const nightClubImagePath = "/images/events/nightclub.jpg";
+const nightClubImagePath = "/images/events/nightclub.webp";
 const recordShopImagePath = "/images/events/レコード.jpg";
 
 
