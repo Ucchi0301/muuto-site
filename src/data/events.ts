@@ -25,7 +25,6 @@ export const events: EventItem[] = [
     location: "新宿",
     eventUrl: "https://tunagate.com/circle/98708/events/453243",
   },
-  // DJ練習会
   {
     title: "【新宿】DJ体験で音楽を楽しもう！",
     date: "2025-09-16",
