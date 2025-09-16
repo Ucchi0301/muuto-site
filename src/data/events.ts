@@ -9,6 +9,22 @@ const recordShopImagePath = "/images/events/レコード.jpg";
 
 
 export const events: EventItem[] = [
+    {
+    title: "【新宿】DJ体験で音楽を楽しもう！",
+    date: "2025-10-14",
+    description: "クラブ機材を使った初心者向けの体験会です。DJとはから操作方法までサポートします。",
+    imageUrl: beginnerImagePath,
+    location: "新宿",
+    eventUrl: "https://tunagate.com/circle/98708/events/453240",
+  },
+    {
+    title: "【新宿】DJ体験で音楽を楽しもう！",
+    date: "2025-10-28",
+    description: "クラブ機材を使った初心者向けの体験会です。DJとはから操作方法までサポートします。",
+    imageUrl: beginnerImagePath,
+    location: "新宿",
+    eventUrl: "https://tunagate.com/circle/98708/events/453243",
+  },
   // DJ練習会
   {
     title: "【新宿】DJ体験で音楽を楽しもう！",
