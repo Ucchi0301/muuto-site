@@ -10,7 +10,7 @@ import { events } from "@/data/events";
 import GallerySection from "@/components/GallerySection";
 import JoinSection from "@/features/howToJoin/components/JoinSection";
 import { listPublicImages } from "@/lib/listPublicImages";
-
+export const revalidate = 60;
 export default function Home() {
   const { upcoming, past } = partitionByStatus(events);
   const upcomingSorted = sortUpcomingAsc(upcoming);
