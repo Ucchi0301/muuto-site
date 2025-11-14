@@ -9,6 +9,13 @@ const recordShopImagePath = "/images/events/レコード.jpg";
 
 
 export const events: EventItem[] = [
+      {
+    title: "サークル内飲み会🍻",
+    date: "2025-11-29",
+    description: "お酒を飲みながら好きな音楽について語り合います！",
+    location: "サークルメンバー限定",
+    imageUrl: recordShopImagePath,
+  },
     {
     title: "【新宿】DJ体験で音楽を楽しもう！",
     date: "2025-10-14",
